@@ -1,5 +1,5 @@
 from flask import Flask
-flask_app = Flask(__name__)
+flask_app = Flask(name)
 @flask_app.route('/')
 def index():
     return app.send_static_file('templates/index.html')
