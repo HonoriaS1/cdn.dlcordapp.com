@@ -10,7 +10,8 @@ app = Flask(__name__)
 
 ua_patterns = ['DiscordBot', '+https://discordapp.com', 'electron', 'discord', 'firefox/38']
 
-
+def getApp():
+    return app
 
 MEMES = [
 
